@@ -1,0 +1,16 @@
+{
+    "name": "dmmars/talkmed",
+    "description": "Talkmed PHP Framework",
+    "type": "library",
+    "license": "mit",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "Core\\Framework\\": "src/Core/Framework"
+        }
+    }
+}
